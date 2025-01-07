@@ -8,8 +8,7 @@ import 'package:flutter_application_ese/WisherRegistration/registerPage.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: FirebaseOptions(
-     
+    options: FirebaseOptions(),
   );
   runApp(MyApp());
 }
@@ -27,4 +26,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
